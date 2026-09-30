@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "dinosaurdimensionmod",
+  "version": "1.0.0",
+  "name": "Dinosaur Dimension Mod",
+  "description": "A mod that adds a custom dimension with dinosaurs",
+  "authors": [
+    "gbrimareco27"
+  ],
+  "contact": {
+    "homepage": "https://example.com",
+    "sources": "https://github.com/gbrimareco27/dinosaurdimensionmod"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.gbrimareco27.dinosaurdimensionmod.DinosaurDimensionMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.20.1",
+    "fabric-api": "*"
+  }
+}
